@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 
 class Datos:
-
     # Constructor: procesar el fichero para asignar correctamente las variables nominalAtributos, datos y diccionarios
     def __init__(self, nombreFichero):
         self.nominalAtributos = []
@@ -52,7 +51,7 @@ class Datos:
             j += 1
 
         # https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.replace.html
-        self.datos = df.replace(self.diccionarios)
+        self.datos = np.array(df.replace(self.diccionarios))
 
     # Devuelve el subconjunto de los datos cuyos índices se pasan como argumento
     def extraeDatos(self, idx):

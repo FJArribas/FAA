@@ -1,5 +1,6 @@
 from abc import ABCMeta, abstractmethod
 import random
+
 from Datos import Datos
 
 class Particion():
