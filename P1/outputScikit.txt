@@ -1,0 +1,15 @@
+Validacion Simple sin usar Laplace:
+	Media: 0.2925899999999999
+	Varianza: 0.0007733418999999994
+
+Validacion Simple usando Laplace:
+	Media: 0.2711800000000001
+	Varianza: 0.0008168076000000004
+
+Validacion Cruzada sin usar Laplace:
+	Media: 0.29699999999999993
+	Varianza: 0.0006559999999999992
+
+Validacion Cruzada usando Laplace:
+	Media: 0.275
+	Varianza: 0.00025000000000000044
